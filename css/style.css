@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro;
+    font-size: 1.25rem;
+}
+h2 {
+    text-transform: uppercase;
+}
+span {
+    color: tomato;
+}
+.pad {
+    padding-top: 250px;
+    
+}
+.btn-about {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+  
+
+}
+.about-flex, .edu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    
+    
+}
+.info {
+    flex: 1 1 48rem ;
+}
+.graph {
+    flex: 1 1 48rem;
+    display: flex;
+}
+
+.about-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.edu-tab {
+    border-left: 1px solid black;
+    flex: 1 1 48rem;
+    
+    
+    
+}
